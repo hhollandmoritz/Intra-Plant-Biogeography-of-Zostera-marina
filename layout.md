@@ -1,2 +1,3 @@
 Materials and Methods.tex
+figures/zosteramarina1labels1/zosteramarina1labels1.svg
 figures/zosteramarina1labels/
