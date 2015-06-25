@@ -1,4 +1,5 @@
 Materials and Methods.tex
 figures/zosteramarina1labels2/zosteramarina1labels2.png
+figures/sectioningschemelabels1/sectioningschemelabels1.png
 Qiime_test_results
 figures/sectioningschemelabels/figures/zosteramarina1labels1/figures/zosteramarina1labels/
