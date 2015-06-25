@@ -1,0 +1,147 @@
+[hannah@localhost qiime-deploy]$ source $HOME/.bashrc
+[hannah@localhost qiime-deploy]$ print_qiime_config.py -t
+
+System information
+==================
+         Platform:	linux2
+   Python version:	2.7.3 (default, Jul 15 2013, 15:43:17)  [GCC 4.7.2 20121109 (Red Hat 4.7.2-8)]
+Python executable:	/home/hannah/qiime_software/python-2.7.3-release/bin/python
+
+Dependency versions
+===================
+                     PyCogent version:	1.5.3
+                        NumPy version:	1.5.1
+                   matplotlib version:	1.1.0
+                  biom-format version:	1.1.2
+                QIIME library version:	1.7.0
+                 QIIME script version:	1.7.0
+        PyNAST version (if installed):	1.2
+RDP Classifier version (if installed):	rdp_classifier-2.2.jar
+          Java version (if installed):	1.7.0_25
+
+QIIME config values
+===================
+                     blastmat_dir:	/home/hannah/qiime_software/blast-2.2.22-release/data
+                         sc_queue:	all.q
+      topiaryexplorer_project_dir:	None
+     pynast_template_alignment_fp:	/home/hannah/qiime_software/core_set_aligned.fasta.imputed
+                  cluster_jobs_fp:	/home/hannah/qiime_software/qiime-1.7.0-release/bin/start_parallel_jobs.py
+pynast_template_alignment_blastdb:	None
+assign_taxonomy_reference_seqs_fp:	/home/hannah/qiime_software/gg_otus-12_10-release/rep_set/97_otus.fasta
+                     torque_queue:	friendlyq
+   template_alignment_lanemask_fp:	/home/hannah/qiime_software/lanemask_in_1s_and_0s
+                    jobs_to_start:	1
+                cloud_environment:	False
+                qiime_scripts_dir:	/home/hannah/qiime_software/qiime-1.7.0-release/bin
+            denoiser_min_per_core:	50
+                      working_dir:	/tmp/
+                    python_exe_fp:	/home/hannah/qiime_software/python-2.7.3-release/bin/python
+                         temp_dir:	/tmp/
+                      blastall_fp:	/home/hannah/qiime_software/blast-2.2.22-release/bin/blastall
+                 seconds_to_sleep:	60
+assign_taxonomy_id_to_taxonomy_fp:	/home/hannah/qiime_software/gg_otus-12_10-release/taxonomy/97_otu_taxonomy.txt
+
+
+running checks:
+
+test_FastTree_supported_version (__main__.Qiime_config)
+FastTree is in path and version is supported ... ok
+test_INFERNAL_supported_version (__main__.Qiime_config)
+INFERNAL is in path and version is supported ... ok
+test_ParsInsert_supported_version (__main__.Qiime_config)
+ParsInsert is in path and version is supported ... ok
+test_R_supported_version (__main__.Qiime_config)
+R is in path and version is supported ... ok
+test_ampliconnoise_install (__main__.Qiime_config)
+AmpliconNoise install looks sane. ... FAIL
+test_blast_supported_version (__main__.Qiime_config)
+blast is in path and version is supported ... ok
+test_blastall_fp (__main__.Qiime_config)
+blastall_fp is set to a valid path ... ok
+test_blastmat_dir (__main__.Qiime_config)
+blastmat_dir is set to a valid path. ... ok
+test_cdbtools_supported_version (__main__.Qiime_config)
+cdbtools is in path and version is supported ... ok
+test_cdhit_supported_version (__main__.Qiime_config)
+cd-hit is in path and version is supported ... ok
+test_chimeraSlayer_install (__main__.Qiime_config)
+no obvious problems with ChimeraSlayer install ... ok
+test_clearcut_supported_version (__main__.Qiime_config)
+clearcut is in path and version is supported ... ok
+test_cluster_jobs_fp (__main__.Qiime_config)
+cluster_jobs_fp is set to a valid path and is executable ... ok
+test_denoiser_supported_version (__main__.Qiime_config)
+denoiser aligner is ready to use ... FAIL
+test_for_obsolete_values (__main__.Qiime_config)
+local qiime_config has no extra params ... ok
+test_gdata_install (__main__.Qiime_config)
+gdata is installed ... ok
+test_matplotlib_suported_version (__main__.Qiime_config)
+maptplotlib version is supported ... ok
+test_mothur_supported_version (__main__.Qiime_config)
+mothur is in path and version is supported ... ok
+test_muscle_supported_version (__main__.Qiime_config)
+muscle is in path and version is supported ... ok
+test_numpy_suported_version (__main__.Qiime_config)
+numpy version is supported ... ok
+test_pplacer_supported_version (__main__.Qiime_config)
+pplacer is in path and version is supported ... ok
+test_pynast_suported_version (__main__.Qiime_config)
+pynast version is supported ... ok
+test_pynast_template_alignment_blastdb_fp (__main__.Qiime_config)
+pynast_template_alignment_blastdb, if set, is set to a valid path ... ok
+test_pynast_template_alignment_fp (__main__.Qiime_config)
+pynast_template_alignment, if set, is set to a valid path ... ok
+test_python_exe_fp (__main__.Qiime_config)
+python_exe_fp is set to a working python env ... ok
+test_python_supported_version (__main__.Qiime_config)
+python is in path and version is supported ... ok
+test_qiime_scripts_dir (__main__.Qiime_config)
+qiime_scripts_dir, if set, is set to a valid path ... ok
+test_raxmlHPC_supported_version (__main__.Qiime_config)
+raxmlHPC is in path and version is supported ... ok
+test_rtax_supported_version (__main__.Qiime_config)
+rtax is in path and version is supported ... ok
+test_sourcetracker_installed (__main__.Qiime_config)
+sourcetracker is installed ... ok
+test_temp_dir (__main__.Qiime_config)
+temp_dir, if set, is set to a valid path ... ok
+test_template_alignment_lanemask_fp (__main__.Qiime_config)
+template_alignment_lanemask, if set, is set to a valid path ... ok
+test_uclust_supported_version (__main__.Qiime_config)
+uclust is in path and version is supported ... ok
+test_usearch_supported_version (__main__.Qiime_config)
+usearch is in path and version is supported ... FAIL
+test_working_dir (__main__.Qiime_config)
+working_dir, if set, is set to a valid path ... ok
+
+======================================================================
+FAIL: test_ampliconnoise_install (__main__.Qiime_config)
+AmpliconNoise install looks sane.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hannah/qiime_software/qiime-1.7.0-release/bin/print_qiime_config.py", line 144, in test_ampliconnoise_install
+    "$PYRO_LOOKUP_FILE variable is not set. See %s for help." % url)
+AssertionError: $PYRO_LOOKUP_FILE variable is not set. See http://qiime.org/install/install.html#ampliconnoise-install-notes for help.
+
+======================================================================
+FAIL: test_denoiser_supported_version (__main__.Qiime_config)
+denoiser aligner is ready to use
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hannah/qiime_software/qiime-1.7.0-release/bin/print_qiime_config.py", line 542, in test_denoiser_supported_version
+    "which components of QIIME you plan to use.")
+AssertionError: Denoiser flowgram aligner not found or not executable.This may or may not be a problem depending on which components of QIIME you plan to use.
+
+======================================================================
+FAIL: test_usearch_supported_version (__main__.Qiime_config)
+usearch is in path and version is supported
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/hannah/qiime_software/qiime-1.7.0-release/bin/print_qiime_config.py", line 678, in test_usearch_supported_version
+    "which components of QIIME you plan to use.")
+AssertionError: usearch not found. This may or may not be a problem depending on which components of QIIME you plan to use.
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.915s
+
