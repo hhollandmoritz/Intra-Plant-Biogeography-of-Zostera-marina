@@ -2,7 +2,7 @@ section_Introduction__.tex
 section_Materials_and_Methods__.tex
 Field Collection and Storage.tex
 subsubsection_Sample_Preparation_textit_Plant__.tex
-Plant_2_6_For_plant__.tex
+textit_Plant_2_6_For__.tex
 figures/zosteramarina1labels2/zosteramarina1labels2.png
 figures/sectioningschemelabels1/sectioningschemelabels1.png
 subsubsection_DNA_Extraction_Library_Preparation__.tex
