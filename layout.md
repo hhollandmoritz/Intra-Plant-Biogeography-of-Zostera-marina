@@ -8,6 +8,7 @@ figures/sectioningschemelabels1/sectioningschemelabels1.png
 subsubsection_DNA_Extraction_Library_Preparation__.tex
 subsubsection_Sequence_Analyses_and_Data__.tex
 textit_QIIME__.tex
+textit_R__.tex
 section_Results_and_Discussion__.tex
 section_Conclusion__.tex
 section_Acknowledgements__.tex
