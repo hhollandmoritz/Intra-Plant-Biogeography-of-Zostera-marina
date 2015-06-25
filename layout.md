@@ -1,9 +1,8 @@
-Materials and Methods.tex
 section_Introduction__.tex
+Materials and Methods.tex
 subsubsection_Sample_Preparation_Plant_1__.tex
 Plant_2_6_For_plant__.tex
 figures/zosteramarina1labels2/zosteramarina1labels2.png
 figures/sectioningschemelabels1/sectioningschemelabels1.png
 subsubsection_DNA_Extraction_Library_Preparation__.tex
 Qiime_test_results
-figures/sectioningschemelabels/figures/zosteramarina1labels1/figures/zosteramarina1labels/
