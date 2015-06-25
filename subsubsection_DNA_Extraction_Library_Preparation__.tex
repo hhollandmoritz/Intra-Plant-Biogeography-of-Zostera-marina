@@ -1,0 +1,5 @@
+\subsubsection{DNA Extraction, Library Preparation and Sequencing}
+
+DNA was extracted using the MoBio PowerSoil DNA Extraction Kit (reference) according to a modified version of the manufacturer's protocol [link to seagrass website protocol]. [should I mention the heating step here or is that too much detail?]. The V4 region (primers 515F and 806R) of the 16S gene was amplified and sequencing libraries were prepared using a modified version of the Earth Microbiome Project Protocol [link] and amplicons were multiplexed through a custom dual-barcoding system [aaron reference here]. Each sample received a unique identifying barcode. Libraries were sequenced on the Illumina MiSeq platform with 250bp paired-end reads. Talk about Guillaume's script here. The raw data was then demultiplexed using an in-house script (githublink) that first filters out low-quality reads, then aligns paired reads and generates a consensus sequence using FLASH (Magoc and Salzberg, 2011) [ask Guillaume for Details!!!], and finally generates QIIME-ready sequences in fasta format. 
+
+    
