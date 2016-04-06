@@ -1,5 +1,4 @@
 section_Introduction__.tex
-section_Materials_and_Methods__.tex
 Field Collection and Storage.tex
 subsubsection_Sample_Preparation_textit_Plant__.tex
 textit_Plant_2_6_For__.tex
